@@ -108,6 +108,10 @@ body {
    animation: slideTop 2s ease forwards;
 }
 
+.home-content a:hover {
+   text-shadow: 0px 0px 2px #d7c074;
+}
+
 .home-content a.facebook span {
    color: #d7c074;
 }
