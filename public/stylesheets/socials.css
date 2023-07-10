@@ -183,6 +183,21 @@ body {
    }
 }
 
+@media screen and (max-height: 500px) {
+   .header {
+      padding: 8px 10%;
+   }
+
+   .home-content {
+      margin: 10px;
+   }
+
+   .home-content a {
+      line-height: 60px;
+      font-size: 40px;
+   }
+}
+
 @keyframes slideRight {
    0% {
       transform: translateX(-10px);

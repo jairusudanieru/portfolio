@@ -231,6 +231,29 @@ body {
    }
 }
 
+@media screen and (max-height: 500px) {
+   .header {
+      padding: 8px 10%;
+   }
+
+   .home-content {
+      margin: 10px;
+   }
+
+   .home-content img {
+      width: 90px;
+   }
+
+   .home-content h1 {
+      line-height: 26px;
+      font-size: 22px;
+   }
+
+   .home-content h5 {
+      font-size: 14px;
+   }
+}
+
 @keyframes slideRight {
    0% {
       transform: translateX(-100px);

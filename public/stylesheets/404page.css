@@ -195,6 +195,25 @@ body {
    }
 }
 
+@media screen and (max-height: 500px) {
+   .header {
+      padding: 8px 10%;
+   }
+
+   .home-content {
+      margin: 10px;
+   }
+
+   .home-content h1 {
+      line-height: 60px;
+      font-size: 40px;
+   }
+
+   .home-content h5 {
+      font-size: 22px;
+   }
+}
+
 @keyframes slideRight {
    0% {
       transform: translateX(-100px);
