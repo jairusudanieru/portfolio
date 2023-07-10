@@ -34,6 +34,7 @@ body {
    text-decoration: none;
    font-weight: 600;
    cursor: default;
+   pointer-events: none;
 }
 
 .navbar a {
@@ -63,6 +64,7 @@ body {
    backdrop-filter: blur(15px);
    overflow: hidden;
    transition: height 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   user-select: none;
 }
 
 .dropdown-menu.open {
