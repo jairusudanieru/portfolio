@@ -5,19 +5,19 @@ const port = 3000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-   res.sendFile(path.join(__dirname, "public/home.html"));
+   res.sendFile(path.join(__dirname, "public/pages/homePage/index.html"));
 });
 
 app.get("/about", (req, res) => {
-   res.sendFile(path.join(__dirname, "public/about.html"));
+   res.sendFile(path.join(__dirname, "public/pages/aboutPage/index.html"));
 });
 
 app.get("/socials", (req, res) => {
-   res.sendFile(path.join(__dirname, "public/socials.html"));
+   res.sendFile(path.join(__dirname, "public/pages/socialsPage/index.html"));
 });
 
 app.get('*', function (req, res) {
-   res.sendFile(path.join(__dirname, "public/404page.html"));
+   res.sendFile(path.join(__dirname, "public/pages/404Page/index.html"));
 });
 
 app.listen(port);
